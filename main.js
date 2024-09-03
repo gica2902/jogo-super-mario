@@ -43,24 +43,3 @@ mario.style.marginLeft = "50px";
   },10);
 
   document.addEventListener("keydown",jump);
-       
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    document.addEventListener("keydown",jump);
