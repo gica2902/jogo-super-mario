@@ -1,7 +1,23 @@
 const mario = document.querySelector (".mario");
 const pipe = document.querySelector("pipe");
+const startButton = document.queryselector(".start")
+const gameOverScreen = document.querySelector("game-over")
 
- const jump = () =>  {
+let gameStarted = false;
+
+const startgame = () => {
+gamestart = true
+
+pipe.style.animation = "pipe-animation 1.5s infinite linear";
+
+ startButton.style.display = "none";
+ mario.style.opacity = "1";
+ pipe.style.opacity = "1";
+ clouds.style.opacity = "1";
+
+}
+
+const jump = () =>  {
     mario.classList.add("jump");
 
     setTimeout(() => {
@@ -11,8 +27,8 @@ const pipe = document.querySelector("pipe");
 }
 
 const loop = setInterval(() => {}(;
-const mario = document.querySelector (".mario");
-const pipe = document.querySelector("pipe");
+ const piposition = pipe.offse
+ const pipe = document.querySelector("pipe");
 
  const jump = () =>  {
     mario.classList.add("jump");
